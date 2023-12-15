@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 96px;
+}
+
+
+
+.header-mobile{
+    display: none;
+}
+
+.logo{
+    color:#000000;
+    font-family: "Allerta Stencil", sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40.5px;
+}
+.header_logo::first-letter{
+    color:#A18A68;
+}
+.header_link-text{
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    
+}
+
+.header_links{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.stick{
+    height: 17px;
+    width: 1px;
+    background-color: #000000;
+    
+}
+.header_links-text{
+    display: flex;
+    gap: 64px;
+}
+.header_links-icons{
+    display: flex;
+    gap: 39px;
+}
+.header_link-icon{
+    width: 20px;
+    height: 20px;
+    }
+
+.slider{
+    margin-top: 16px;
+    width: 86.7vw;
+    height: 646px;
+    border-radius:16px;
+    background-size: cover;
+    
+}
+.first-slide{
+    background-image: url(../images/first-slide.webp);
+    height: 646px;
+    border-radius:16px;
+    width: 86.7vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+
+}
+a.sale-card{
+    display: block;
+    text-decoration: none;
+}
+.second-slide{
+    background-image: url(../images/second-slide.webp);
+    border-radius:16px;
+    width: 86.7vw;
+    height: 646px;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+
+}
+.third-slide{
+    background-image: url(../images/third-slide.webp);
+    border-radius:16px;
+    width: 86.7vw;
+    height: 646px;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+
+}
+.fourth-slide{
+    background-image: url(../images/fourth-slide.avif);
+    border-radius:16px;
+    width: 86.7vw;
+    height: 646px;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    
+}
+.fifth-slide{
+    background-image: url(../images/fifth-slide.webp);
+    border-radius:16px;
+    width: 86.7vw;
+    height: 646px;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+
+}
+.text-part-in-slide{
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+    
+}
+.slide-active{
+    display: block;
+}
+.slide-non-active{
+    display: none;
+}
+.slider-name-of-product{
+    font-weight: 500;
+    font-family: "DM Sans";
+    font-size: 33px;
+    line-height: 43px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+.slider-price{
+    font-weight: 400;
+    font-family: "DM Sans";
+    font-size: 26px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.slide-with-button-part{
+    padding-top:226px;
+    padding-left:39px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dots{
+    
+    display: flex;
+    gap:13.71px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 185px;
+}
+.dot{
+    width: 9.14px;
+    height: 9.14px;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+.active{
+    background: none;
+    border: 1px solid #ffffff;
+    width: 16px;
+    height: 16px;
+}
+.first-text-separation{
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 1.2px;
+}
+.text-separation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    align-items: center;
+    margin-bottom: 39px;
+    width: 86.7vw;
+}
+
+
+.price-link{
+    color:#A18A68;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.sale-card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.shop{
+    display: flex;
+    flex-wrap:wrap; 
+    width: 86.7vw;
+
+}
+
+.name-of-product{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+.count-of-product{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A18A68;
+    text-decoration: none;
+
+}
+.text-in-sale-card{
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+    margin-top: 20px;
+}
+.terms-of-use{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color:#707070;
+}
+.terms-of-use > span{
+    color:#000000;
+}
+
+.top-footer{
+    display: flex; 
+    gap: 25.41vw;
+    margin-top: 40px;
+}
+.footer-links{
+    display: flex;
+    gap: 41px;
+    margin-top: 14px;
+}
+.footer-link{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 27px;
+    color: #707070;
+    text-decoration: none;
+}
+.footer-link:last-of-type{
+    word-spacing: 0.6px;
+}
+.bot-footer{
+    display: flex;
+    margin-top: 47px;
+    justify-content: space-between;
+    padding-bottom: 92px;
+}
+.footer-line{
+    margin-top: 250px;
+}
+.email{
+    color:#707070;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    align-self: flex-start;
+    border:none;
+    width: 370px;   
+}
+.email:focus{
+    border:none;
+    outline:none;
+}
+.footer-input{
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    border-bottom: 1px solid #000000;
+    width: 396px;
+    
+}
+.footer-input > img{
+    width: 25px;
+    height: 8.74px;
+    padding-top: 12px;
+    
+}
+.social-media-icons{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+.price-link:hover{
+    text-decoration: underline;
+}
+.header_link-text:hover{
+    opacity: 0.7;
+}
+.header_link-icon:hover{
+    opacity: 0.7;
+}
+.logo:hover{
+    opacity: 0.7;
+}
+.view-link:hover{
+    background: #000;
+    opacity:0.7;
+    cursor:pointer;
+}
+.product-image:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+.count-of-product:hover{
+    text-decoration: underline;
+}
+.footer-link:hover{
+    color:#000000;
+    cursor:pointer;
+}
+
+.social-media-icon:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+.add-to-card:hover{
+    background: #000;
+    opacity:0.7;
+    color: #ffffff;
+    cursor:pointer;
+}
+.choose-of-info:hover{
+    cursor:pointer;
+    
+    color: #000000;
+}
+.four-small-img > img:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+.another-four-images > img:hover{
+    opacity: 0.7;
+    cursor:pointer;
+
+}
+.product-icons > img:hover{
+    opacity:0.7;
+    cursor:pointer;
+
+}
+.homepage:hover{
+    background: #000;
+    opacity:0.7;
+    color: #ffffff;
+    cursor:pointer;
+}
+.homepage{
+    color:#000000;
+    text-decoration: none; 
+}
+.homepage:hover > a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.send-button:hover{
+    background: #ffffff;
+    color: #000000;
+    cursor:pointer;
+}
+.active-link{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    color:#000000;
+}
+.dot:hover{
+    cursor:pointer;
+}
+.right-arrow-footer{
+    border:0;
+    background: none;
+    margin-top: -8px;
+}
+.right-arrow-footer:hover{
+    cursor:pointer;
+    opacity:0.7;
+}
+.header_link-text{
+    letter-spacing: 0.6px;
+}
+.header-desktop{
+    margin-top: 66px;
+}
+.terms-of-use{
+    letter-spacing: 0.55px;
+}
+.footer-link{
+    letter-spacing: 0.6px;
+}
+.email{
+    letter-spacing: 0.6px;
+}
